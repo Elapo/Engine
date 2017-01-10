@@ -7,7 +7,8 @@
 
 namespace Collision {
     class Collidable {
-
+    public:
+        int veryDistinctFuntion();
     };
 }
 
