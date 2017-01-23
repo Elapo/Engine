@@ -1,6 +1,11 @@
-RAYTRACER
+RAYCAST
 Fog (of war)
 AABB
 
+http://lodev.org/cgtutor/raycasting.html
+
 https://en.wikipedia.org/wiki/Glossary_of_computer_graphics#Intersection_test
 https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box
+
+Look into OGRE for 3D
+Look into openAL for audio
