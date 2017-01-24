@@ -11,7 +11,7 @@ set(SDL2_LibDir   "${SDL2_ROOT}/lib")
 include_directories(${SDL2_Includes})
 link_directories(${SDL2_LibDir})
 
-set(SOURCE_FILES main.cpp Collision/Collidable.cpp Collision/Collidable.h 2DPhysics/PhysicsEntity.cpp 2DPhysics/PhysicsEntity.h Core/Entity.h Collision/Quadtree.h Collision/SHash.h Pathfinding/Dijkstra.cpp Pathfinding/Dijkstra.h Config/ConfigHandler.cpp Config/ConfigHandler.h AssetManagement/AssetManager.cpp AssetManagement/AssetManager.h AssetManagement/Asset.cpp AssetManagement/Asset.h)
+set(SOURCE_FILES main.cpp Collision/Collidable.cpp Collision/Collidable.h 2DPhysics/PhysicsEntity.cpp 2DPhysics/PhysicsEntity.h Core/Entity.h Collision/Quadtree.h Collision/SHash.h Pathfinding/Dijkstra.cpp Pathfinding/Dijkstra.h Config/ConfigHandler.cpp Config/ConfigHandler.h AssetManagement/AssetManager.cpp AssetManagement/AssetManager.h AssetManagement/Asset.cpp AssetManagement/Asset.h 2DGraphics/Renderer.cpp 2DGraphics/Renderer.h)
 
 #add_executable(Engine ${SOURCE_FILES})
 add_library(Engine SHARED ${SOURCE_FILES})

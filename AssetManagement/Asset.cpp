@@ -3,3 +3,14 @@
 //
 
 #include "Asset.h"
+
+namespace AssetManagement{
+    AssetType Asset::getType() {
+        return SPRITE;
+    }
+
+    Asset::Asset(AssetType type) {
+        this->m_AssetType = type;
+    }
+
+}

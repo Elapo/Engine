@@ -5,9 +5,22 @@
 #ifndef ENGINE_ASSET_H
 #define ENGINE_ASSET_H
 
-namespace AssetManagement {
-    class Asset {
 
+namespace AssetManagement {
+
+    enum AssetType{
+        SPRITE,
+        AUDIO,
+        SCRIPT
+    };
+
+
+    class Asset {
+    public:
+        Asset(AssetType type);
+        AssetType getType();
+    private:
+        AssetType m_AssetType;
     };
 }
 
