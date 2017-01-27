@@ -21,6 +21,7 @@ namespace Config {
 
     private:
         ConfigFile * m_CurrentConfig;
+        bool splitLine(std::string line, std::string& name, std::string& val, std::string ch);
 
     };
 }
