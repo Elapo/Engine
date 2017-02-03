@@ -6,7 +6,4 @@
 
 namespace Collision{
 
-    int Collidable::veryDistinctFuntion() {
-        return 3333;
-    }
 }

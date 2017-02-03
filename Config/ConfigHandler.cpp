@@ -59,7 +59,10 @@ void Config::ConfigHandler::AddEntry(Config::ConfigEntry entry) {
 }
 
 void Config::ConfigHandler::AddEntry(std::string name, std::string value) {
-
+    ConfigEntry entry;
+    entry.value = value;
+    entry.name = name;
+    this->m_CurrentConfig->entries->push_back(& entry);
 }
 
 Config::ConfigFile *Config::ConfigHandler::getLoadedConfig() {

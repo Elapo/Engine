@@ -6,10 +6,18 @@
 #define ENGINE_COLLIDABLE_H
 
 namespace Collision {
+    struct BoundingBox {
+
+    };
+
     class Collidable {
     public:
-        int veryDistinctFuntion();
+        BoundingBox getBpundingBox();
+    private:
+        BoundingBox m_BoundingBox;
     };
+
+
 }
 
 

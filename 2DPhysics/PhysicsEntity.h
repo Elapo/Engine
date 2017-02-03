@@ -7,7 +7,12 @@
 
 namespace Physics{
     class PhysicsEntity {
+    public:
+        void update();
+        void setForce();
 
+    private:
+        float m_XForce, m_YForce;
     };
 }
 
